@@ -30,6 +30,7 @@ export default function AuthPage() {
         alert(data.message);
       }
     } catch (error) {
+      console.error('Authentication error:', error);
       alert('An error occurred. Please try again.');
     }
   };

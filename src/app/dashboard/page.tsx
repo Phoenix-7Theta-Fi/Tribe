@@ -24,7 +24,7 @@ export default function Dashboard() {
             <div className="h-px w-24 mx-auto bg-gradient-to-r from-cyan via-magenta to-amber-medium opacity-30" />
             
             <p className="text-magenta font-medium">
-              Let's build something amazing today
+              Let&apos;s build something amazing today
             </p>
           </div>
         </div>
@@ -32,6 +32,7 @@ export default function Dashboard() {
     </div>
   );
 }
+
 
 
 

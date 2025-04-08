@@ -31,6 +31,7 @@ export async function POST(request: Request) {
       message: 'User created successfully' 
     });
   } catch (error) {
+    console.error('Signup error:', error);
     return NextResponse.json({ 
       success: false, 
       message: 'Server error' 
