@@ -3,21 +3,26 @@
 @tailwind utilities;
 
 :root {
+  --amber-light: #FEF3C7;
+  --amber-medium: #F59E0B;
+  --amber-dark: #B45309;
+  --cyan: #7DD3FC;    /* Sky blue shade */
+  --magenta: #F9A8D4; /* Pastel magenta */
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #92400E;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #4B5563;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, sans-serif;
 }
 
 @layer utilities {
@@ -25,3 +30,7 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+
